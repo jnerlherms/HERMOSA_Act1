@@ -14,8 +14,8 @@ const info = {
       "I work with HTML, CSS, JavaScript, PHP, MySQL, Java, C, and now React.",
   email: "jnerlherms@gmail.com",
   github: "https://github.com/jnerlherms",
-  linkedin: "https://linkedin.com/in/your-name",
-  facebook: "https://facebook.com/your-name",
+  instagram: "https://www.instagram.com/big_joot/",
+  facebook: "https://www.facebook.com/jonerlo.hermosa",
   resume: "#",
 };
 
@@ -82,14 +82,12 @@ export default function App() {
           </div>
 
           <div className="socials">
-            <a href={info.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href={info.instagram} target="_blank" rel="noreferrer">Instagram</a>
             <a href={info.github} target="_blank" rel="noreferrer">GitHub</a>
             <a href={info.facebook} target="_blank" rel="noreferrer">Facebook</a>
           </div>
 
-          <a className="resume" href={info.resume} target="_blank" rel="noreferrer">
-            Resume
-          </a>
+    
         </header>
 
         <section className="section" id="about">
